@@ -83,7 +83,8 @@ m.sendMessage(args)
        $bc  |  لإرسال برودكاست للأونلاين
 
        $adminbc | برودكاست عادي
-        تصميم: @ツAliSTOPツ#1828 
+       
+       تصميم: @ツAliSTOPツ#1828 
        ** `)
    message.author.sendEmbed(embed)
    
@@ -111,7 +112,7 @@ client.on('message', message => {
       message.channel.send(`**✅   ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'sets')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/dream");
+    client.user.setGame(argresult, "https://www.youtube.com/channel/UC4_bXIw8TD2rEw0ndqOaYKg");
       message.channel.send(`**✅**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
