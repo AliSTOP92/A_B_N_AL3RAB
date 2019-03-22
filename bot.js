@@ -76,11 +76,13 @@ m.sendMessage(args)
      const embed = new Discord.RichEmbed() 
          .setColor("#00FF00")
          .setThumbnail(message.author.avatarURL)
-         .setDescription(`**Help|المساعدة
+         .setDescription(`**
+       
+       Help | المساعدة
 
        $obc | لإرسال برودكاست للجميع
 
-       $bc  |  لإرسال برودكاست للأونلاين
+       $bc  | لإرسال برودكاست للأونلاين
 
        $adminbc | برودكاست عادي
        
